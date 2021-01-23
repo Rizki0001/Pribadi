@@ -617,6 +617,10 @@ case 'timer':
 				if (data.error) return reply(data.error)
 				reply(data.result)
 				break
+				case 'iri':
+				if (msg.startsWith("iri")
+conn.sendMessage(jid, './file.mp3', MesageType.audio, {mimetype:'audio/mp4', ptt: true})
+break
 			case 'quotes':
 				client.updatePresence(from, Presence.composing) 
                                 if (!isRegister) return reply(mess.only.daftarB)
