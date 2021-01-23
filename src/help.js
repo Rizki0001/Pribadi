@@ -1,10 +1,11 @@
 const help = (prefix) => {
 	return `
-「 *BOT_NAME* 」
+「 *BOT_RIZKI* 」
 
 ◪ *INFO*
   ❏ Prefix: 「  ${prefix}  」
-  ❏ Creator: OWNER_NAME
+  ❏ Creator: IQBAL
+  ❏ Owner: IQBAL
 ◪ *ABOUT*
   │
   ├─ ❏ ${prefix}info
@@ -173,7 +174,7 @@ const help = (prefix) => {
   ├─ ❏ ${prefix}timer
   ├─ ❏ ${prefix}fml
   └─ ❏ ${prefix}fml2
-◪ *OWNER_NAME2*
+◪ *OWNER_IQBAL*
 `
 }
 
